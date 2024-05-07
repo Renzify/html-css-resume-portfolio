@@ -1,0 +1,262 @@
+body{
+  padding: 0%;
+  margin: 0%;
+}
+
+header{
+  display: grid;
+  grid-template-columns: 65px 4fr 1fr 1fr 1fr 1fr;
+  height: 115px;
+  align-items: center;
+  background-color: #16193C;
+}
+
+.logo p{
+  color: #CA6261;
+  margin: 0.5rem;
+ }
+
+header a, header p{
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  color: white;
+  margin: 0.5rem;
+}
+
+.head-text{
+  display: flex;
+  justify-content: center;
+}
+
+header button{
+  background-color: #CA6261;
+  border: none;
+  border-radius: 3%;
+}
+
+main{
+  display: grid;
+  grid-template-rows: 685px repeat(3, 1fr);
+}
+
+#hero-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 685px;
+}
+
+.left-hero{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1A1D40;
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 128px;
+  color: white;
+}
+
+#portrait{
+  z-index: 100;
+  position: absolute;
+  margin-top: 1100px;
+}
+
+.left-hero p{
+  margin: 0%;
+}
+
+.right-hero{
+  background-color: #16193C;
+}
+
+#intro-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 800px;
+  background-color: #CA6261;
+}
+
+.intro-right{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 128px;
+  color: #1A1D40;
+  padding: 0%;
+  margin: 0%;
+  width: 390px;
+}
+
+.intro-right p{
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: #331C46;
+  width: 500px;
+}
+
+.intro-right button{
+  width: 245px;
+  height: 67px;
+  background-color: #1A1D40;
+  color: white;
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  border: none;
+  border-radius: 3%;
+  margin: 1rem 0rem;
+}
+
+.intro-left button{
+  width: 245px;
+  height: 67px;
+  background-color: #1A1D40;
+  color: #CA6261;
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  border: none;
+  border-radius: 3%;
+  margin: 3rem 0rem;
+  margin-left: 12rem;
+  text-align: right;
+}
+
+.intro-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  margin-top: 14rem;
+}
+
+#education-section{
+  background-color: #1A1D40;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  height: 800px;
+}
+
+.left-educ{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-educ h2, .left-educ li h3{
+  color: #CA6261;
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+
+.left-educ li::marker{
+  color: #CA6261;
+}
+
+.left-educ h2{
+  display: flex;
+  font-size: 64px;
+  align-items: center;
+}
+
+.left-educ ul p{
+  color: #ffffff;
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.right-educ{
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  flex-direction: column;
+}
+
+.right-educ-text{
+  background-color: #CA6261;
+  width: 394px;
+  border-radius: 10%;
+}
+
+.right-educ h3{
+  color: #1A1D40;
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  margin-left: 2rem;
+}
+
+.right-educ p{
+  color: white;
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin-left: 2rem;
+}
+
+#skills-section{
+  background-color: #1A1D40;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 800px;
+}
+
+.skills-top{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.skills-top button{
+  display: flex;
+  width: 245px;
+  height: 67px;
+  background-color: #CA6261;
+  color: white;
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  border: none;
+  border-radius: 3%;
+  margin: 1rem 0rem;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.skills-mid{
+  background-color: #CA6261;
+}
+
+.skills-logo{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+footer{
+  background-color: #CA6261;
+}
